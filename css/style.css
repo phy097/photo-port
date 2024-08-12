@@ -1,9 +1,9 @@
 /* Base */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;700&display=swap');
+
 
 @font-face {
   font-family: 'Layaung Kaythit';
-  src: url('../fonts\ 2/Regular.ttf') format('truetype');
+  src: url('../fontsl/Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
