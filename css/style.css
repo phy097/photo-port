@@ -1,11 +1,23 @@
 /* Base */
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 
 @font-face {
-  font-family: 'Layaung Kaythit';
-  src: url('../fontsl/Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'VTigdisDisplay';
+    src: url('/fontvtg/Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LaRaungThitK48';
+  src: url('/fontsla/Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BarmarA6';
+  src: url('/fontsbb/Regular.ttf') format('woff2'),
+       url('/fontsbb/Regular.ttf') format('woff'),
+       url('/fontsbb/Regular.ttf') format('truetype');
 }
 
 body {
@@ -22,6 +34,11 @@ body {
 ::selection {
   background: #000;
   color: #fff; }
+/* Hero Text */
+.text {
+  
+  font-family: "Playfair Display", serif;
+}
 
 a {
   -webkit-transition: .3s all ease;
@@ -53,7 +70,7 @@ a {
 
   /* banner section */
   .banner {
-    background-image: url('../images/bannerbig.jpg');
+    background-image: url('../images/van.jpg');
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -1266,6 +1283,14 @@ a {
 
     /* Burmese Font */
     .burmese {
-      font-family: 'Layaung Kaythit', 'Myanmar Text', sans-serif !important;
-      ;
+      font-family: 'VTigdisDisplay', sans-serif !important;
+      font-size: 40px !important;
+      
+    }
+    .tea {
+      
+      font-family: 'VTigdisDisplay', sans-serif !important;
+      
+      font-size: 24px !important;
+      
     }
